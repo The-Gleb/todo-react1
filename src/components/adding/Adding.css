@@ -1,0 +1,23 @@
+.adding_container {
+	max-width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	display: flex;
+	height: 35px;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-between;
+}
+.new_task_input {
+	width: 80%;
+	height: 30px;
+	margin: 0;
+	text-align: left;
+	font-size: 20px;
+	line-height: 1px;
+}
+.adding_btn {
+	width: 17%;
+	height: 35px;
+	line-height: 1px;
+}

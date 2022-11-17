@@ -1,0 +1,107 @@
+.item_container {
+}
+.item {
+	box-sizing: border-box;
+	max-width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	/* margin-top: 10px; */
+	display: flex;
+	height: 35px;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-between;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: #fff;
+}
+.checkbox {
+	width: 18px;
+	height: 18px;
+}
+.notDone {
+line-height: 20px;
+display: none;
+}
+.done {
+	line-height: 20px;
+}
+.task_name {
+	/* max-width: 1000px; */
+	text-align: left;
+	flex: 1 1 auto;
+	margin-left: 10px;
+}
+.crossed {
+	text-align: left;
+	flex: 1 1 auto;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.true {
+	height: 20px;
+	width: 20px;
+	border: 1px solid;
+	line-height: 20px;
+	background-color: #fff;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding-right: 0px;
+	font-weight: 800;
+	margin-left: 10px;
+	/* text-align: center; */
+	/* padding-right: 0px; */
+}
+.true div {
+	width: 15px;
+	height: 15px;
+	font-size: 18px;
+	margin-left: -4px;
+}
+.important_icon {
+	height: 20px;
+	width: 20px;
+	border: 1px solid;
+	line-height: 20px;
+	background-color: #fff;
+	font-size: 20px;
+	font-weight: 800;
+}
+.delete_icon {
+	height: 20px;
+	width: 20px;
+	border: 1px solid black;
+	line-height: 18px;
+	background-color: #fff;
+	color: red;
+	margin-left: 10px;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 1px;
+}
+.false {
+	display: none;
+}
+/* .editing_container {
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+} */
+.editing_input {
+flex: 1 1 auto;
+
+height: 20px;
+}
+.save_btn {
+	height: 26px;
+	margin-left: 5px;
+	flex: 1 1 auto;
+}
+.cancel_btn {
+	height: 26px;
+	margin-left: 15px;
+	flex: 1 1 auto;
+
+}
